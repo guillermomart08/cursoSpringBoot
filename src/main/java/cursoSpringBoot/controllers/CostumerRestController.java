@@ -55,7 +55,7 @@ public class CostumerRestController {
 
         URI location = ServletUriComponentsBuilder
                 .fromCurrentRequest()
-                .path("/{username}")
+                .path("/{username1}")
                 .buildAndExpand(customer.getUsername())
                 .toUri();
 
